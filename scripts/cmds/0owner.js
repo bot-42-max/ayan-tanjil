@@ -16,12 +16,12 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: '𝗔𝗬𝗔𝗡',
-      gender: 'MaLe',
-      age: '1+',
+      name: '𝐓 𝐀 𝐍 𝐉 𝐈 𝐋',
+      gender: '𝐌𝐚𝐥𝐞',
+      age: '𝟏𝟖±',
       height: '5.11',
       choise: 'Russian 😞',
-      nick: 'Jamai Dak mgi '
+      nick: '𝐉𝐚𝐦𝐚𝐢 𝐛𝐨𝐥𝐛𝐢  '
     };
 
     const bold = 'https://i.imgur.com/v9A1DLB.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
@@ -38,7 +38,7 @@ config: {
     fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
     const response = ` 
-╭[ .  ]•〆 ᴀʏᴀɴ 〆 ]  ─⦿
+╭[ .  ]•〆 ᵀᴬᴺᴶᴵᴸ 〆 ]  ─⦿
 ╭────────────◊
 ├‣ 𝐁𝐨𝐭 & 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 
 ├‣ 𝐍𝐚𝐦𝐞: ${ownerInfo.name}
