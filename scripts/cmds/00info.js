@@ -33,12 +33,12 @@ module.exports = {
   },
 
   sendInfo: async function (message) {
-    const botName = " 🕸️ SpideY 🕷️ ";
-    const botPrefix = ".";
-    const authorName = "𝗔𝗬𝗔𝗡";
-    const authorFB = "NOPE 🐸";
-    const authorInsta = "Shor Mgii 😒";
-    const status = "𝗣𝘂𝗿𝗲 𝗦𝗶𝗻𝗴𝗹𝗲";
+    const botName = " ᯽ᵞᴼᵁᴿ 🌷𝐁𝐁'𝐗᯽ ";
+    const botPrefix = "/";
+    const authorName = "𝐓 𝐀 𝐍 𝐉 𝐈 𝐋";
+    const authorFB = "https://www.facebook.com/share/15P7QEFwsR/";
+    const authorInsta = "𝐓𝐨𝐫𝐞 𝐝𝐢𝐛𝐨 𝐤𝐧 ";
+    const status = "𝐒 𝐈 𝐍 𝐆 𝐋 𝐄";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/Ayan.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
@@ -66,7 +66,7 @@ module.exports = {
 ├‣ 𝐓𝐢𝐦𝐞:  ${time}
 ├‣ 𝐔𝐩𝐭𝐢𝐦𝐞: ${uptimeString}
 ╰────────────◊`,
-      attachment: await global.utils.getStreamFromURL(link)
+      attachment: await global.utils.getStreamFromURL(Link)
     });
   }
 };
